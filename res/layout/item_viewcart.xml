@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_marginTop="10dp"
+    android:background="@drawable/back"
+    app:cardCornerRadius="20dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtM"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="User email"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtp"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtM"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:text="Placename"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtcartmail"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:text=""
+
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtcartplace"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtcartmail"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="80dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/txtF"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginBottom="50dp"
+            android:text="Amount"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtc"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtcartfees"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtcartplace"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="140dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtcartcheckin"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtcartplace"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="200dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtcartmobile"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtcartplace"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="260dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtm"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="260dp"
+            android:text="Mobileno"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+    </FrameLayout>
+</androidx.cardview.widget.CardView>
